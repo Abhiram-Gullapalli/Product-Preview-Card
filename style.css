@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    max-width: 650px;
+    max-height: 600px;
+    align-items: center;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 12%;
+    border-radius: 5%;
+}
+
+.fa_custom {
+color: white;
+}
+
+
+  .image {
+    flex-basis: 40%;
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px ;
+    padding-right: 20px;
+  }
+  body{
+    background-color: hsl(30, 38%, 92%);
+  }
+  .button1{
+    border: none;
+    color:white;
+  background-color: #209431;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    border-radius: 5%;
+  }
+.button1 img{
+  width: 10px;
+  height: 10px;
+    position: absolute;
+  margin-left:0%;
+  padding-right: 10%;
+}
+.button1 span
+{   
+    display:inline-block;
+    width: 120px;
+    margin-left: 10px;
+}
